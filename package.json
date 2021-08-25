@@ -1,0 +1,23 @@
+{
+	"name": "discord-bot",
+	"version": "1.0.0",
+	"description": "what a bot?",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node src/index.js",
+		"lint": "prettier --write src"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"@top-gg/sdk": "^3.1.2",
+		"discord-akairo": "github:discord-akairo/discord-akairo",
+		"discord.js": "^13.1.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.13.8",
+		"node-cron": "^3.0.0",
+		"node-fetch": "^2.6.1"
+	},
+	"devDependencies": {
+		"prettier": "^2.3.1"
+	}
+}
