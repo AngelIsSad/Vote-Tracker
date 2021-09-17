@@ -7,6 +7,9 @@
 		"start": "node src/index.js",
 		"lint": "prettier --write src"
 	},
+	"engines": {
+		"node": "16.7.0"
+	},
 	"license": "ISC",
 	"dependencies": {
 		"@top-gg/sdk": "^3.1.2",
