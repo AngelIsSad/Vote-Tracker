@@ -1,5 +1,5 @@
 const Client = require('./Structure/Client');
-const client = new Client({ prefix: '!', channelToSend: '875064682174619696', topggBotId: '835525646292877323', roleId: '875064681109262387' });
+const client = new Client({ prefix: '!', channelToSend: 'VOTE-LOG-CHANNELID', topggBotId: 'YOUR-BOT-ID', roleId: 'ROLEID-YOU-WANT-TO-GIVE' });
 
 // Bot Token, MongoURi, Topgg Auth Token
-return client.start('ODM2NTQ5MTE1MjE0MTY4MDc0.YIfnEw.bFYQcpmFVLXftELoTO_K9QxLDHY', 'mongodb+srv://VoteBot:alikhan110@cluster0.h5adc.mongodb.net/VoteBot?retryWrites=true&w=majority', 'piss')
+return client.start('BOT-TOKEN-GOES-HERE', 'MONGO-DB-URI-GOES-HERE', 'AUTHORIZATION-KEY')
