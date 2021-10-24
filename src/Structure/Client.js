@@ -6,7 +6,7 @@ const path = require('path');
 module.exports = class BotClient extends AkairoClient {
   constructor(config = {}) {
     super(
-      { ownerID: ['756909881793183826'] },
+      { ownerID: ['YOUR-DISCORD-ID'] },
       {
         presence: {
           status: 'online',
